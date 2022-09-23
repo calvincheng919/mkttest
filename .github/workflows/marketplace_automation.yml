@@ -41,3 +41,6 @@ jobs:
           name: JEST Tests                        # Name of the check run which will be created
           path: junit.xml                         # Path to test results           path: reports/jest-*.xml    
           reporter: jest-junit                    # Format of test results
+      - name: Looker Marketplace JSON Tests
+        uses: 4mile/looker-marketplace-json-js-tests@v1.0.1
+
