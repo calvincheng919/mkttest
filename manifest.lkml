@@ -1,3 +1,4 @@
+project_name: "davidb_mkt_automation_test"
 
 ## Connection Constants:
 constant: GA4_CONNECTION {
